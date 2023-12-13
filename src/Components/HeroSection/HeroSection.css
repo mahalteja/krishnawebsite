@@ -157,3 +157,11 @@ text-transform: capitalize;
         transform: scale(0.7);
     }
 }
+
+@media (max-width:346px){
+    .hero-top p{
+        padding: 0;
+        font-size: 16px;
+        width: 250px;
+    }
+}

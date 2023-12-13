@@ -43,6 +43,24 @@ outline: none;
     .navbar{
         gap: 30px;
         width: 100%;
+        padding: 0;
     }
     .button{transform: scale(0.8);}
+    .navbar img{
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width:346px){
+    .navbar{
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navbar img{
+        transform: scale(0.7);
+    }
+    .button{
+        transform: scale(0.7);
+    }
 }
