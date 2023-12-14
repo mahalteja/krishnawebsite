@@ -10,7 +10,9 @@ const Whyme = () => {
 
   return (
     <div className="whyme">
-      <div className="whyme-heading" data-aos="fade">why me</div>
+      <div className="whyme-heading" data-aos="fade">
+        why me
+      </div>
       <div className="items">
         <div className="item" data-aos="fade-up">
           <svg
@@ -35,8 +37,9 @@ const Whyme = () => {
           </svg>
           <h3>agency</h3>
           <p>
-            Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
-            sed libero sed at sed nisl sodales phasellus et.
+            In a saturated market, choose me for distinctive visual
+            storytelling. I blend expertise, passion, and creativity for
+            unforgettable photographic experiences.
           </p>
         </div>
         <div className="item" data-aos="fade-up">
@@ -62,8 +65,9 @@ const Whyme = () => {
           </svg>
           <h3>Choose Idea</h3>
           <p>
-            Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
-            sed libero sed at sed nisl sodales phasellus et.
+            Choose me for photography that transcends the ordinary. I bring a
+            unique blend of creativity and expertise to capture your
+            extraordinary moments beautifully.
           </p>
         </div>
         <div className="item" data-aos="fade-up">
@@ -83,8 +87,9 @@ const Whyme = () => {
           </svg>
           <h3>satisfaction</h3>
           <p>
-            Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
-            sed libero sed at sed nisl sodales phasellus et.
+            Your satisfaction is my top priority. I strive to exceed
+            expectations, ensuring your moments are not just captured but
+            cherished forever with joy and fulfillment.
           </p>
         </div>
         <div className="item" data-aos="fade-up">
@@ -104,8 +109,9 @@ const Whyme = () => {
           </svg>
           <h3>Quality</h3>
           <p>
-            Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
-            sed libero sed at sed nisl sodales phasellus et.
+            Embrace uncompromising quality. I deliver photographs that
+            resonate with excellence, ensuring your memories are preserved in
+            the highest standard of visual artistry.
           </p>
         </div>
         <div className="item" data-aos="fade-up">
@@ -125,8 +131,9 @@ const Whyme = () => {
           </svg>
           <h3>creativity</h3>
           <p>
-            Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
-            sed libero sed at sed nisl sodales phasellus et.
+            Experience boundless creativity in every frame. I infuse passion
+            and innovation to craft visually stunning and uniquely artistic
+            photographs that tell your story with flair.
           </p>
         </div>
       </div>
@@ -135,5 +142,3 @@ const Whyme = () => {
 };
 
 export default Whyme;
-
- 
