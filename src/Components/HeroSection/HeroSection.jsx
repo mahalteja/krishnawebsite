@@ -22,7 +22,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="hero-bottom" >
-        <p  >order now</p>
+        <p  >Book Now</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="240"
