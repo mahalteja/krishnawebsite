@@ -22,9 +22,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="hero-bottom" >
-        <p  onClick={()=>{
-          window.location.href= "tel:+918074187798"
-        }}>order now</p>
+        <p  >order now</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="240"
