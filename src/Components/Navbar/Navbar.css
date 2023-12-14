@@ -50,6 +50,17 @@ outline: none;
         transform: scale(0.8);
     }
 }
+@media (max-width:500px){
+    .button{
+        transform: scale(0.7);
+    }
+    .navbar img{
+        transform: scale(0.65);
+    }
+    .navbar{
+        margin: 0;
+    }
+}
 
 @media (max-width:346px){
     .navbar{
@@ -58,9 +69,9 @@ outline: none;
         width: 100%;
     }
     .navbar img{
-        transform: scale(0.7);
+        transform: scale(0.6);
     }
     .button{
-        transform: scale(0.7);
+        transform: scale(0.6);
     }
 }

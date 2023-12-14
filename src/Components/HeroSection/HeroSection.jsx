@@ -18,11 +18,13 @@ const HeroSection = () => {
 
         <img src={Hero_img} alt="" data-aos="fade-up" />
         <p data-aos="fade-up">
-          Tech YouTuber from Kolkata, India. I make Gadgets' unboxing and review videos. And everything related technology.
+          Hi! I am Krishna I am Photographer. I'll take the stunning images at your Wedding, Birthday functions etc.. I capture the moments comes through Lens.
         </p>
       </div>
-      <div className="hero-bottom">
-        <p>order now</p>
+      <div className="hero-bottom" data-aos="fade">
+        <p onClick={()=>{
+          window.location.href= "tel:+918074187798"
+        }} >order now</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="240"
