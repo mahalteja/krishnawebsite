@@ -90,7 +90,7 @@ text-transform: capitalize;
     .hero-top p{
         font-size: 18px;
         max-width: 250px;
-        text-align: left;
+        text-align: center;
     }
     .hero-top img{
         width: 90%;
@@ -111,6 +111,8 @@ text-transform: capitalize;
         max-width: 700px;
         line-height: normal;
         width: 500px;
+        margin-left: -30px;
+        margin-right: 10px;
     }
     .hero-bottom{
         margin-top: 300px
