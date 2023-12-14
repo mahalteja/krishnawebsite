@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      <div className="button">
+      <div className="button" onClick={()=>{
+        window.location.href="tel:7995447216"
+      }}>
         <button>Contact Now</button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
