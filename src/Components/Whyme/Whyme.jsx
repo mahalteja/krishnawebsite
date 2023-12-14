@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Whyme.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Whyme = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="whyme">
-      <div className="whyme-heading">why me</div>
+      <div className="whyme-heading" data-aos="fade">why me</div>
       <div className="items">
-        <div className="item">
+        <div className="item" data-aos="fade-up">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -33,7 +39,7 @@ const Whyme = () => {
             sed libero sed at sed nisl sodales phasellus et.
           </p>
         </div>
-        <div className="item">
+        <div className="item" data-aos="fade-up">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -60,7 +66,7 @@ const Whyme = () => {
             sed libero sed at sed nisl sodales phasellus et.
           </p>
         </div>
-        <div className="item">
+        <div className="item" data-aos="fade-up">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -81,7 +87,7 @@ const Whyme = () => {
             sed libero sed at sed nisl sodales phasellus et.
           </p>
         </div>
-        <div className="item">
+        <div className="item" data-aos="fade-up">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -102,10 +108,21 @@ const Whyme = () => {
             sed libero sed at sed nisl sodales phasellus et.
           </p>
         </div>
-        <div className="item">
-        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="32" viewBox="0 0 23 32" fill="none">
-  <path d="M13.8333 1V12.5385H22L9.16667 31V19.4615H1L13.8333 1Z" stroke="#898D92" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+        <div className="item" data-aos="fade-up">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="32"
+            viewBox="0 0 23 32"
+            fill="none"
+          >
+            <path
+              d="M13.8333 1V12.5385H22L9.16667 31V19.4615H1L13.8333 1Z"
+              stroke="#898D92"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
           <h3>creativity</h3>
           <p>
             Sagittis enim nullam pulvinar tellus sit egestas semper. Vestibulum
@@ -118,3 +135,5 @@ const Whyme = () => {
 };
 
 export default Whyme;
+
+ 
