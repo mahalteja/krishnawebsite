@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./HeroSection.css";
-import Hero_img from "../Assets/Hero_image.png";
+import Hero_img1 from "../Assets/Hero_image1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,12 +16,12 @@ const HeroSection = () => {
           <h1 className="heading-bottom">photography</h1>
         </div>
 
-        <img src={Hero_img} alt="" data-aos="fade-up" />
+        <img src={Hero_img1} alt="" data-aos="fade-up" />
         <p data-aos="fade-up">
           Hi! I am Krishna I am Photographer. I'll take the stunning images at your Wedding, Birthday functions etc.. I capture the moments comes through Lens.
         </p>
       </div>
-      <div className="hero-bottom" data-aos="fade">
+      <div className="hero-bottom" >
         <p onClick={()=>{
           window.location.href= "tel:+918074187798"
         }} >order now</p>
