@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <img src={logo} alt="" />
       <div className="button" onClick={()=>{
-        window.location.href="tel:7995447216"
+        window.location.href="tel:+91 9494491395"
       }}>
         <button>Contact Now</button>
         <svg
