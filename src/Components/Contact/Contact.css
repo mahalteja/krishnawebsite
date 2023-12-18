@@ -1,0 +1,28 @@
+.contact h1{
+    color: #fff;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.phone p{
+    color: #fff;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+.copy-button{
+    cursor: pointer;
+}
