@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <HeroSection/>
-      /*<Whyme/>
-      <Contact/>*/
+      <Whyme/>
+      <Contact/>
       <Footer/>
     </div>
   );
