@@ -11,7 +11,7 @@ const Whyme = () => {
   return (
     <div className="whyme">
       <div className="whyme-heading" data-aos="fade">
-        w
+        why me
       </div>
       <div className="items">
         <div className="item" data-aos="fade-up">
