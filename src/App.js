@@ -14,6 +14,7 @@ function App() {
       <HeroSection/>
       <Whyme/>
       <Contact/>
+Hi
       <Footer/>
     </div>
   );
